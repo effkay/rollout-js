@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rails>, [">= 3.0"])
       s.add_runtime_dependency(%q<rollout>, ["~> 1.0.0"])
       s.add_runtime_dependency(%q<bourne>, ["= 1.0.0"])
-      s.add_runtime_dependency(%q<redis>, ["= 0.1"])
+      s.add_runtime_dependency(%q<redis>, ["~> 3.1"])
       s.add_development_dependency(%q<therubyracer>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.7.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.2"])
